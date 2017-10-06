@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+html,body{
+	background: url(img/Background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	font-size: 32px;
+	font-weight: 500;
+	color: #ffffff;
+	text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+p{
+	padding-right: 10px;
+}
+
+.container{
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+/*------HEADER------*/
+.logo{
+	text-align: center;
+	opacity: .3;
+	padding-top: 30px;
+}
+
+.logo img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*-----MAIN WRAPPER----*/
+.articlesWrapper{
+	flex-basis: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.leftColumn{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+
+.rightColumn{
+	display: flex;
+	flex-direction: column;
+	flex-basis:  50%;
+}
+
+.articleWrapper{
+	flex-basis: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.formWrapper{
+	border-radius: 5px;
+	background-color:  rgba(0,0,0, .2);
+	padding: 15px;
+}
+
+.formBar input, select{
+	flex-basis: 280px;
+	border: none;
+	border-top-right-radius:  3px;
+	border-bottom-right-radius:  3px;
+	background-color:  #f4f4f4;	
+	align-self: center;
+	padding-left: 15px ;
+	padding-right: 5px;
+	outline: none;
+	font-size: 15px;
+}
+
+.registerForm{
+	width: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color:  #f4f4f4;
+	align-self: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.signInForm{
+	width: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color:  #f4f4f4;
+	align-self: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sendEmailForm{
+	width: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color:  #f4f4f4;
+	align-self: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+	.txtArea{
+		display: flex;
+		justify-content: center;
+		margin: 5px 0;
+	}
+
+		textarea{
+			width: 340px;
+			height: 200px;
+			resize: vertical;
+			border-radius: 3px;
+			background-color: #f4f4f4; 
+			border: 1px solid #c6c6c6;
+			padding: 10px;
+			outline: none;
+		}
+
+.recoverForm{
+	width: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color:  #f4f4f4;
+	align-self: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.subscribeForm{
+	width: 382px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color:  #f4f4f4;
+	align-self: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* ----------CHECKBOXES----------*/
+.checkbox{
+	display: inline-flex;
+	margin: auto;
+	width: 340px;
+}
+
+	.checkboxItem{
+		width: 22px;
+		height: 22px;
+		align-self: center;
+		margin-right: 10px;
+		border: 1px solid #c6c6c6;
+		position: relative;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		border-radius: 3px;	
+	}
+
+		.checkboxItem:checked:after {
+			content: '';
+			position: absolute;
+			width: 12px;
+			height: 12px;
+			background: #93d02b;
+			border-radius: 3px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+
+.checkBoxAndBtnBar{
+	display: inline-flex;
+	align-self: center;
+	width: 340px;
+}
+
+/*-------BUTTONS--------*/
+.btn{
+	width: 340px;
+	height: 48px;
+	margin: 10px auto;
+	border-radius: 3px;
+	border: none;
+	border:1px solid  #3b9a00;
+	background-color:  #93d02b;
+	text-shadow: 1px 1px 0px #51850e;
+	font-size: 22px;
+	color: #ffffff;	
+}
+
+.btn:hover{
+	background-color:  #3b9a00;
+}
+
+.btnsBar{
+	display: inline-flex;
+	width: 340px;
+	align-self: center;
+}
+
+.subscribeBtn{
+	flex-basis: 100%;
+	height: 48px;
+	border-radius: 3px;
+	border: none;
+	border:1px solid  #3b9a00;
+	background-color:  #93d02b;
+	text-shadow: 1px 1px 0px #51850e;
+	font-size: 22px;
+	color: #ffffff;
+	margin: 10px;
+}
+
+.subscribeBtn:hover{
+	background-color:  #3b9a00;
+}
+
+.subscribeBtn:nth-child(2){
+	background-color: #f4495b;
+	border-color:  #a2202a;
+}
+
+.subscribeBtn:nth-child(2):hover{
+	background-color:  #a2202a;
+}
+
+
+/*-------LABELS------*/
+span{
+	display: flex;
+	width: 60px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #c6c6c6;
+}
+
+label{
+	flex-basis: 60px;
+	display: flex;
+	margin: 5px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.user{
+	width: 25px;
+	height: 22px;
+}
+
+.password{
+	width: 20px;
+	height: 24px;
+}
+
+.email{
+	width: 28px;
+	height: 18px;
+}
+
+.location{
+	width: 17px;
+	height: 23px;
+}
+
+.phone {
+	width: 17px;
+	height: 25px;
+}
+
+.formBar{
+	width: 340px;
+	height: 45px;
+	display: inline-flex;
+	align-self: center;
+	margin: 5px 0;
+	justify-content: center;
+	border: 1px solid #c6c6c6;
+	border-radius: 3px;
+}
+
+/*-----WATERMARK-----*/
+.waterMark img{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	opacity: 0.3;
+}
+
+
+/*------BREAKPOINT-840PX-----*/	
+@media all and (max-width: 840px){
+	.articlesWrapper{
+		justify-content: center;
+	}
+}
+
+/*------BREAKPOINT-500PX-----*/	
+@media all and (max-width: 500px){
+
+	.leftColumn,.rightColumn, .articleWrapper, .formWrapper, .registerForm, 
+	.sendEmailForm ,.recoverForm, .signInForm, .subscribeForm, .btnsBar{
+		max-width: 100%;
+	}
+	.formBar, .btn, textarea{
+		max-width: 80%;
+	}
+	.checkBoxAndBtnBar{
+		width: 80%;
+		text-align: center;
+		font-size: 14px;
+	}
+		.checkbox{
+		width: 80%;
+		font-size: 14px;
+		text-align: center;
+	}
+		.formBar input, select{
+		font-size: 13px;
+	}
+		h1{
+		font-size: 26px;
+	}
+}
