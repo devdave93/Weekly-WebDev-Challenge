@@ -67,6 +67,7 @@ p{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	padding-top: 30px;
 }
 
 .formWrapper{
@@ -88,7 +89,7 @@ p{
 	font-size: 15px;
 }
 
-.registerForm{
+.form{
 	width: 382px;
 	display: flex;
 	flex-direction: column;
@@ -97,28 +98,6 @@ p{
 	align-self: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.signInForm{
-	width: 382px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color:  #f4f4f4;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.sendEmailForm{
-	width: 382px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color:  #f4f4f4;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 20px;
 }
 
 	.txtArea{
@@ -138,27 +117,7 @@ p{
 			outline: none;
 		}
 
-.recoverForm{
-	width: 382px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color:  #f4f4f4;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
-.subscribeForm{
-	width: 382px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color:  #f4f4f4;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
 /* ----------CHECKBOXES----------*/
 .checkbox{
@@ -176,12 +135,8 @@ p{
 		position: relative;
 		-webkit-appearance: none;
 		-moz-appearance: none;
-		border-radius: 3px;
-		outline: none;
+		border-radius: 3px;	
 	}
-		.checkboxItem:hover{
-			cursor: pointer;
-		}
 
 		.checkboxItem:checked:after {
 			content: '';
@@ -193,7 +148,6 @@ p{
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%,-50%);
-			outline: none;
 		}
 
 .checkBoxAndBtnBar{
@@ -218,7 +172,6 @@ p{
 
 .btn:hover{
 	background-color:  #3b9a00;
-	cursor: pointer;
 }
 
 .btnsBar{
@@ -242,7 +195,6 @@ p{
 
 .subscribeBtn:hover{
 	background-color:  #3b9a00;
-	cursor: pointer;
 }
 
 .subscribeBtn:nth-child(2){
@@ -252,7 +204,6 @@ p{
 
 .subscribeBtn:nth-child(2):hover{
 	background-color:  #a2202a;
-	cursor: pointer;
 }
 
 
