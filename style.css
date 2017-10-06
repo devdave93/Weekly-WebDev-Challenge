@@ -179,6 +179,9 @@ p{
 		border-radius: 3px;
 		outline: none;
 	}
+		.checkboxItem:hover{
+			cursor: pointer;
+		}
 
 		.checkboxItem:checked:after {
 			content: '';
@@ -215,6 +218,7 @@ p{
 
 .btn:hover{
 	background-color:  #3b9a00;
+	cursor: pointer;
 }
 
 .btnsBar{
@@ -238,6 +242,7 @@ p{
 
 .subscribeBtn:hover{
 	background-color:  #3b9a00;
+	cursor: pointer;
 }
 
 .subscribeBtn:nth-child(2){
@@ -247,6 +252,7 @@ p{
 
 .subscribeBtn:nth-child(2):hover{
 	background-color:  #a2202a;
+	cursor: pointer;
 }
 
 
