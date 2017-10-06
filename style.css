@@ -176,7 +176,8 @@ p{
 		position: relative;
 		-webkit-appearance: none;
 		-moz-appearance: none;
-		border-radius: 3px;	
+		border-radius: 3px;
+		outline: none;
 	}
 
 		.checkboxItem:checked:after {
