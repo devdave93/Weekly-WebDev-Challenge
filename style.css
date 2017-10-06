@@ -283,8 +283,7 @@ label{
 /*------BREAKPOINT-500PX-----*/	
 @media all and (max-width: 500px){
 
-	.leftColumn,.rightColumn, .articleWrapper, .formWrapper, .registerForm, 
-	.sendEmailForm ,.recoverForm, .signInForm, .subscribeForm, .btnsBar{
+	.leftColumn,.rightColumn, .articleWrapper, .formWrapper, .form, .btnsBar{
 		max-width: 100%;
 	}
 	.formBar, .btn, textarea{
