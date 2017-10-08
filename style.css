@@ -43,26 +43,26 @@ p{
 }
 
 /*-----MAIN WRAPPER----*/
-.articlesWrapper{
+.articles_wrapper{
 	flex-basis: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.leftColumn{
+.left_column{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	flex-basis: 50%;
 }
 
-.rightColumn{
+.right_column{
 	display: flex;
 	flex-direction: column;
 	flex-basis:  50%;
 }
 
-.articleWrapper{
+.article_wrapper{
 	flex-basis: auto;
 	display: flex;
 	align-items: center;
@@ -70,7 +70,7 @@ p{
 	padding-top: 30px;
 }
 
-.formWrapper{
+.form_wrapper{
 	border-radius: 5px;
 	background-color:  rgba(0,0,0, .2);
 	padding: 15px;
@@ -100,7 +100,7 @@ p{
 	padding-bottom: 10px;
 }
 
-	.txtArea{
+	.txt_area{
 		display: flex;
 		justify-content: center;
 		margin: 5px 0;
@@ -126,7 +126,7 @@ p{
 	width: 340px;
 }
 
-	.checkboxItem{
+	.checkbox_item{
 		width: 22px;
 		height: 22px;
 		align-self: center;
@@ -138,7 +138,7 @@ p{
 		border-radius: 3px;	
 	}
 
-		.checkboxItem:checked:after {
+		.checkbox_item:checked:after {
 			content: '';
 			position: absolute;
 			width: 12px;
@@ -150,7 +150,7 @@ p{
 			transform: translate(-50%,-50%);
 		}
 
-.checkBoxAndBtnBar{
+.checbox_and_btn_bar{
 	display: inline-flex;
 	align-self: center;
 	width: 340px;
@@ -174,13 +174,13 @@ p{
 	background-color:  #3b9a00;
 }
 
-.btnsBar{
+.btns_bar{
 	display: inline-flex;
 	width: 340px;
 	align-self: center;
 }
 
-.subscribeBtn{
+.subscribe_btn{
 	flex-basis: 100%;
 	height: 48px;
 	border-radius: 3px;
@@ -193,7 +193,7 @@ p{
 	margin: 10px;
 }
 
-.subscribeBtn:hover{
+.subscribe_btn:hover{
 	background-color:  #3b9a00;
 }
 
@@ -202,7 +202,7 @@ p{
 	border-color:  #a2202a;
 }
 
-.subscribeBtn:nth-child(2):hover{
+.subscribe_btn:nth-child(2):hover{
 	background-color:  #a2202a;
 }
 
@@ -250,7 +250,7 @@ label{
 	height: 25px;
 }
 
-.formBar{
+.form_bar{
 	width: 340px;
 	height: 45px;
 	display: inline-flex;
@@ -262,7 +262,7 @@ label{
 }
 
 /*-----WATERMARK-----*/
-.waterMark img{
+.water_mark img{
 	max-width: 100%;
 	display: block;
 	margin-left: auto;
@@ -275,7 +275,7 @@ label{
 
 /*------BREAKPOINT-840PX-----*/	
 @media all and (max-width: 840px){
-	.articlesWrapper{
+	.articles_wrapper{
 		justify-content: center;
 	}
 }
@@ -283,13 +283,13 @@ label{
 /*------BREAKPOINT-500PX-----*/	
 @media all and (max-width: 500px){
 
-	.leftColumn,.rightColumn, .articleWrapper, .formWrapper, .form, .btnsBar{
+	.left_column,.right_column, .article_wrapper, .form_wrapper, .form, .btns_bar{
 		max-width: 100%;
 	}
-	.formBar, .btn, textarea{
+	.form_bar, .btn, textarea{
 		max-width: 80%;
 	}
-	.checkBoxAndBtnBar{
+	.checbox_and_btn_bar{
 		width: 80%;
 		text-align: center;
 		font-size: 14px;
@@ -299,7 +299,7 @@ label{
 		font-size: 14px;
 		text-align: center;
 	}
-		.formBar input, select{
+		.form_bar input, select{
 		font-size: 13px;
 	}
 		h1{
