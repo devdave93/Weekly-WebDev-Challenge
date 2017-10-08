@@ -76,7 +76,7 @@ p{
 	padding: 15px;
 }
 
-.formBar input, select{
+.form_bar input, select{
 	flex-basis: 280px;
 	border: none;
 	border-top-right-radius:  3px;
