@@ -251,6 +251,7 @@ label{
 	position: relative;
 	top: 18px;
 	right: 10px;
+	display: block;
 }
 
 .choose_location{
