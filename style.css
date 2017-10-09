@@ -253,6 +253,11 @@ label{
 	right: 10px;
 }
 
+.choose_location{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
 .phone {
 	width: 17px;
 	height: 25px;
