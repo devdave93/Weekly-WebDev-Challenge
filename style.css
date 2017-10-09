@@ -245,6 +245,14 @@ label{
 	height: 23px;
 }
 
+.location_arrow{
+	width: 20px;
+	height: 10px;
+	position: relative;
+	top: 18px;
+	right: 10px;
+}
+
 .phone {
 	width: 17px;
 	height: 25px;
