@@ -1,322 +1,264 @@
 *{
-	margin: 0;
-	padding:0;
-	box-sizing: border-box;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-html,body{
-	background: url(img/Background.png);
-	background-repeat: no-repeat;
-	background-position: center;
+.header {
+	height: 100vh;
+	background: url(img/background.png);
 	background-size: cover;
+	background-position: center;
 }
 
-h1{
-	font-size: 32px;
-	font-weight: 500;
-	color: #ffffff;
-	text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+h2{
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+}
+
+h4{
+
+	color: #262626;
+	font-size: 90px;
+	font-weight: 700;
 	text-align: center;
-	padding-bottom: 8px;
+
 }
 
-p{
+small{
+	color:  #ffffff;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+
+
+.about-us{
+	
+	background-color:  #00c4c4;
+}
+
+.our-services{
+	
+	background-color:  #70bfff;;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+    
+}
+.info-wrapper{
+	margin-top: 100px;
+}
+
+.navbar{
+	padding-top: 30px;
+}
+
+.info-wrapper h1{
+	font-weight: 800;
+	font-size: 60px;
+}
+
+.info-wrapper p{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 27px;
+}
+
+.navbar-nav{
+	color: #262626;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.info-wrapper .btn{
+	background-color:  #ff6033;
+	width: 200px;
+	height: 55px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	border-radius: 0;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mouse-icon{
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	transform: translate(-50% ,-50%);
+}
+
+
+	
+
+.our-services .btn{
+	
+	font-size: 20px;
+	white-space: normal;
+	
+	width:  80%;
+	display: flex;
+	
+	height: 100px;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	
+	justify-content: space-between;
+	align-items: center;
+	
+	margin-top: 20px;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	color: #262626;
+	font-weight: 700;
+}
+
+	.btn-label{
+		display: flex;
+		width: 25%;
+		height: 100px;
+		align-items: center;
+		justify-content: center;
+		border-left: 1px solid #929292;
+		border-radius: 0;
+		
+	}
+
+	.txt-btn{
+		width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.container{
-	max-width: 1050px;
-	margin: 0 auto;
+.btns-wrapper{
+	margin-top: 40px;
+	margin-bottom: 40px;}
+	
+
+.our-services-wrapper h3{
+	position: absolute;
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+	top: 200px;
+	left: 5px;
+	white-space: wrap;
+	
 }
 
-/*------HEADER------*/
-.logo{
-	text-align: center;
-	opacity: .3;
-	padding-top: 30px;
-}
-
-.logo img{
-	max-width: 100%;
-	height: auto;
-}
-
-/*-----MAIN WRAPPER----*/
-.articles_wrapper{
-	flex-basis: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.left_column{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	flex-basis: 50%;
-}
-
-.right_column{
-	display: flex;
-	flex-direction: column;
-	flex-basis:  50%;
-}
-
-.article_wrapper{
-	flex-basis: auto;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding-top: 30px;
-}
-
-.form_wrapper{
-	border-radius: 5px;
-	background-color:  rgba(0,0,0, .2);
-	padding: 15px;
-}
-
-.form_bar input, select{
-	flex-basis: 280px;
-	border: none;
-	border-top-right-radius:  3px;
-	border-bottom-right-radius:  3px;
-	background-color:  #f4f4f4;	
-	align-self: center;
-	padding-left: 15px ;
-	padding-right: 5px;
-	outline: none;
-	font-size: 15px;
-}
-
-.form{
-	width: 382px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color:  #f4f4f4;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-	.txt_area{
-		display: flex;
-		justify-content: center;
-		margin: 5px 0;
-	}
-
-		textarea{
-			width: 340px;
-			height: 200px;
-			resize: vertical;
-			border-radius: 3px;
-			background-color: #f4f4f4; 
-			border: 1px solid #c6c6c6;
-			padding: 10px;
-			outline: none;
-		}
-
-
-
-/* ----------CHECKBOXES----------*/
-.checkbox{
-	display: inline-flex;
-	margin: auto;
-	width: 340px;
-}
-
-	.checkbox_item{
-		width: 22px;
-		height: 22px;
-		align-self: center;
-		margin-right: 10px;
-		border: 1px solid #c6c6c6;
-		position: relative;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		border-radius: 3px;	
-	}
-
-		.checkbox_item:checked:after {
-			content: '';
-			position: absolute;
-			width: 12px;
-			height: 12px;
-			background: #93d02b;
-			border-radius: 3px;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-		}
-
-.checbox_and_btn_bar{
-	display: inline-flex;
-	align-self: center;
-	width: 340px;
-}
-
-/*-------BUTTONS--------*/
-.btn{
-	width: 340px;
-	height: 48px;
-	margin: 10px auto;
-	border-radius: 3px;
-	border: none;
-	border:1px solid  #3b9a00;
-	background-color:  #93d02b;
-	text-shadow: 1px 1px 0px #51850e;
-	font-size: 22px;
-	color: #ffffff;	
-}
-
-.btn:hover{
-	background-color:  #3b9a00;
-}
-
-.btns_bar{
-	display: inline-flex;
-	width: 340px;
-	align-self: center;
-}
-
-.subscribe_btn{
-	flex-basis: 100%;
-	height: 48px;
-	border-radius: 3px;
-	border: none;
-	border:1px solid  #3b9a00;
-	background-color:  #93d02b;
-	text-shadow: 1px 1px 0px #51850e;
-	font-size: 22px;
-	color: #ffffff;
-	margin: 10px;
-}
-
-.subscribe_btn:hover{
-	background-color:  #3b9a00;
-}
-
-.subscribe_btn:nth-child(2){
-	background-color: #f4495b;
-	border-color:  #a2202a;
-}
-
-.subscribe_btn:nth-child(2):hover{
-	background-color:  #a2202a;
-}
-
-
-/*-------LABELS------*/
-span{
-	display: flex;
-	width: 60px;
-	height: 30px;
-	align-items: center;
-	justify-content: center;
-	border-right: 1px solid #c6c6c6;
-}
-
-label{
-	flex-basis: 60px;
-	display: flex;
-	margin: 5px 0;
-	justify-content: center;
-	align-items: center;
-}
-
-.user{
-	width: 25px;
-	height: 22px;
-}
-
-.password{
-	width: 20px;
-	height: 24px;
-}
-
-.email{
-	width: 28px;
-	height: 18px;
-}
-
-.location{
-	width: 17px;
-	height: 23px;
-}
-
-.location_arrow{
-	width: 20px;
-	height: 10px;
-	position: relative;
-	top: 18px;
-	right: 10px;
-	display: block;
-}
-
-.choose_location{
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
-
-.phone {
-	width: 17px;
-	height: 25px;
-}
-
-.form_bar{
-	width: 340px;
-	height: 45px;
-	display: inline-flex;
-	align-self: center;
-	margin: 5px 0;
-	justify-content: center;
-	border: 1px solid #c6c6c6;
-	border-radius: 3px;
-}
-
-/*-----WATERMARK-----*/
-.water_mark img{
-	max-width: 100%;
-	display: block;
+/*.txt-btn{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	opacity: 0.3;
+}*/
+
+.gallery{
+	background-color: #ffe92f;
+
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 
-/*------BREAKPOINT-840PX-----*/	
-@media all and (max-width: 840px){
-	.articles_wrapper{
-		justify-content: center;
+@media all and (max-width: 992px){	
+
+	h2{
+		font-size: 70px;
+	}
+
+	.our-services .btn{
+		width:  100%;
+	}
+
 	}
 }
 
-/*------BREAKPOINT-500PX-----*/	
-@media all and (max-width: 500px){
-
-	.left_column,.right_column, .article_wrapper, .form_wrapper, .form, .btns_bar{
-		max-width: 100%;
-	}
-	.form_bar, .btn, textarea{
-		max-width: 80%;
-	}
-	.checbox_and_btn_bar{
-		width: 80%;
-		text-align: center;
-		font-size: 14px;
-	}
-		.checkbox{
-		width: 80%;
-		font-size: 14px;
+@media all and (max-width: 768px){
+	.info-wrapper, .about-us{
 		text-align: center;
 	}
-		.form_bar input, select{
-		font-size: 13px;
+	.navbar, .navbar-default{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
-		h1{
-		font-size: 26px;
+
+	.navbar-header{
+		padding-bottom: 10px;
+	}
+
+	.header {
+	height: 100vh;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/background.png);
+	background-size: cover;
+	background-position: center;
+	}
+
+	.navbar{
+    background-color: white;
+    border: none;
+    padding-top: 10px;
+    
+	}
+	
+	
+
+	p{
+		text-shadow: 0px 0px 1px white;
+	}
+
+
+	.our-services-wrapper h3{
+	top: 180px;
+	left: 60px;
+
+	
+		
+}
+
+	
+.btns-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-services-wrapper{
+	display: flex;
+	justify-content: center;
+}
+.our-services .btn{
+	width:  100%;
+}
+	
+}
+
+@media all and (max-width: 768px){
+	.our-services .btn{
+		width:  100%;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
